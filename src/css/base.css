@@ -17,15 +17,21 @@
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background: #f5f5f5;
+  color: #2e2f42;
 }
 
 main {
-  flex-grow: 1;
+  /* display: flex;
+    justify-content: center; */
+  flex-grow: 1;  
+    padding-top: 60px;
 }
 main:has(.back-link) {
   text-align: center;
